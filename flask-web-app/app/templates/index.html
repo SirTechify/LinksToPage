@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to SirTechify Links Page</h1>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </header>
+    <main>
+        <p>Check out my work and connect with me SirTechify:</p>
+        <ul>
+            <li><a href="https://github.com/SirTechify" target="_blank">GitHub</a></li>
+            <li><a href="https://instagram.com/SirTechify" target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/SirTechify/WorkshopDocs-MVP-Deploy" target="_blank">WorkshopDocs - Deploy Your MVP</a></li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Name</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
